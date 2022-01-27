@@ -1,0 +1,60 @@
+(gpu) C:\Projects2\FedAvg_ori>python main_fed.py --dataset mnist --iid --num_channels 1 --model cnn --epochs 50 --gpu 0
+CNNMnist(
+  (conv1): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(5, 5), stride=(1, 1))
+  (conv2_drop): Dropout2d(p=0.5, inplace=False)
+  (fc1): Linear(in_features=320, out_features=50, bias=True)
+  (fc2): Linear(in_features=50, out_features=10, bias=True)
+)
+Round   0, Average loss 1.664
+Round   1, Average loss 0.817
+Round   2, Average loss 0.617
+Round   3, Average loss 0.482
+Round   4, Average loss 0.426
+Round   5, Average loss 0.381
+Round   6, Average loss 0.346
+Round   7, Average loss 0.314
+Round   8, Average loss 0.296
+Round   9, Average loss 0.277
+Round  10, Average loss 0.274
+Round  11, Average loss 0.259
+Round  12, Average loss 0.237
+Round  13, Average loss 0.234
+Round  14, Average loss 0.246
+Round  15, Average loss 0.225
+Round  16, Average loss 0.221
+Round  17, Average loss 0.216
+Round  18, Average loss 0.223
+Round  19, Average loss 0.194
+Round  20, Average loss 0.199
+Round  21, Average loss 0.206
+Round  22, Average loss 0.182
+Round  23, Average loss 0.190
+Round  24, Average loss 0.189
+Round  25, Average loss 0.187
+Round  26, Average loss 0.175
+Round  27, Average loss 0.161
+Round  28, Average loss 0.172
+Round  29, Average loss 0.173
+Round  30, Average loss 0.166
+Round  31, Average loss 0.170
+Round  32, Average loss 0.165
+Round  33, Average loss 0.161
+Round  34, Average loss 0.149
+Round  35, Average loss 0.149
+Round  36, Average loss 0.162
+Round  37, Average loss 0.146
+Round  38, Average loss 0.144
+Round  39, Average loss 0.146
+Round  40, Average loss 0.147
+Round  41, Average loss 0.152
+Round  42, Average loss 0.156
+Round  43, Average loss 0.146
+Round  44, Average loss 0.151
+Round  45, Average loss 0.142
+Round  46, Average loss 0.143
+Round  47, Average loss 0.135
+Round  48, Average loss 0.139
+Round  49, Average loss 0.141
+Training accuracy: 98.38
+Testing accuracy: 98.53
