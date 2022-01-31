@@ -1,6 +1,6 @@
 # FL_Converge
 
-We provide the code implementation for paper [On the Convergence of Heterogeneous Federated Learning with Arbitrary Adaptive Online Model Pruning](Link) 
+We provide the code implementation for paper [On the Convergence of Heterogeneous Federated Learning with Arbitrary Adaptive Online Model Pruning](https://arxiv.org/abs/2201.11803) 
 
 The implementation is based opensource implementation of [FedAvg](https://github.com/shaoxiongji/federated-learning)
 
