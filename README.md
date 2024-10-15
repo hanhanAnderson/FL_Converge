@@ -1,6 +1,6 @@
 # FL_Converge
 
-We provide the code implementation for paper [On the Convergence of Heterogeneous Federated Learning with Arbitrary Adaptive Online Model Pruning](https://arxiv.org/abs/2201.11803) 
+We provide the POC code implementation for paper [Every parameter matters: Ensuring the convergence of federated learning with dynamic heterogeneous models reduction](https://proceedings.neurips.cc/paper_files/paper/2023/file/526356453b7301c9b29aa0533f62bdef-Paper-Conference.pdf)  (NeurIPS 2023)
 
 The implementation is based opensource implementation of [FedAvg](https://github.com/shaoxiongji/federated-learning)
 
